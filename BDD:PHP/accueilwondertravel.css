@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+    header {
+        background-image: url('https://cache.marieclaire.fr/data/photo/w2000_ci/4x/grce-santorin.webp'); /* Remplacez par l'URL de votre image */
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgba(63, 39, 77, 0.4); 
+        position: fixed; 
+        top: 0;
+        left: 0;
+        padding: 4px 0;
+        display: flex;
+        justify-content: center;
+        z-index: 10; 
+    }
+.menu li {
+    float: left;
+    padding: 30px;;
+
+}
+.header {
+    background-color: rgb(43, 29, 60,0.80);
+    height: 70px;
+    margin: 00px;
+    border-radius: 15px;
+    
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul li a {
+    color: rgb(255, 255, 255);
+    font-size:100%;
+    letter-spacing:0.1rem;
+    justify-content: top;
+    display: flex;
+
+}
+
+
+ul li a:hover {
+    color: coral;
+    text-decoration: underline;
+}
+h1{
+    
+   
+
+
+}
+
+h2{
+    
+   
+}
+
+
+
+
+
+
+
+
