@@ -123,7 +123,7 @@
         
         <h2>S'inscrire : </h2>
      
-        <form action="traitement.php" method="POST">
+        <form action="traitementinscriptionpdo.php" method="POST">
         
         <label for="nom">Nom :</label>
         <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required>
@@ -143,7 +143,7 @@
         <button type="submit" class="submit-btn">S'inscrire</button>
         
         <!-- Lien de redirection vers une autre page -->
-        <a href="loginlogout.php" class= "account">J'ai déja un compte -></a>
+        <a href="login.php" class= "account">J'ai déja un compte -></a>
    
     </form>
             </div>
